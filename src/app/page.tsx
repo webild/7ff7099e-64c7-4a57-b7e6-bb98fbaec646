@@ -1,9 +1,9 @@
 "use client";
-import { SlideText } from '@/components/text/SlideText';
-import { MinimalAbout } from '@/components/sections/layouts/about/MinimalAbout';
-import { SimpleHero } from '@/components/sections/layouts/hero/SimpleHero';
-import { BentoFAQ } from '@/components/sections/layouts/faq/BentoFAQ';
-import { SimpleFooter } from '@/components/sections/layouts/footer/SimpleFooter';
+import SlideText from '@/components/text/SlideText';
+import MinimalAbout from '@/components/sections/layouts/about/MinimalAbout';
+import SimpleHero from '@/components/sections/layouts/hero/SimpleHero';
+import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
+import SimpleFooter from '@/components/sections/layouts/footer/SimpleFooter';
 
 const heroSection = () => (
   <section id="hero" className="bg-gradient-to-r from-gray-100 to-white py-20">
